@@ -1,0 +1,6 @@
+{
+  "name": "Health Lab Report Analyzer",
+  "description": "Analyze medical lab reports, extract health metrics, visualize biomarker trends over time, and secure historical results with user authentication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
