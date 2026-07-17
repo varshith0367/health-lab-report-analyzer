@@ -79,6 +79,14 @@
       "fullName": "Aarav QA TestUser",
       "createdAt": "2026-07-16T08:46:20.146Z",
       "gender": ""
+    },
+    {
+      "id": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "email": "qa.automation.1784253291331@example.com",
+      "passwordHash": "31da6b5252be43536728b6a3b805a52d7d477f6700daf17f05697cb8b8668f152e25ce72d81f02631a4ef0acd3fcd0bcd4db6cc2e50c12b8f3d227ffa90fc390",
+      "fullName": "Aarav QA TestUser",
+      "createdAt": "2026-07-17T01:54:51.368Z",
+      "gender": ""
     }
   ],
   "reports": [
@@ -4574,6 +4582,900 @@
       "id": "7d78fb39-2b2a-4693-b813-2a27a198ef7f",
       "userId": "05849301-6872-45a7-a5d1-b7782a5b062d",
       "uploadedAt": "2026-07-16T08:46:23.150Z"
+    },
+    {
+      "fileName": "qa_cbc_normal.pdf",
+      "fileSize": 1511,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-01-10",
+      "patientName": "Aarav QA TestUser",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Jessica Miller, MD",
+      "labName": "LABORATORY HEALTH TESTING INC.",
+      "summary": "The patient's Complete Blood Count (CBC) with differential shows excellent hematological health. All key parameters, including Hemoglobin, Red Blood Cell (RBC) count, White Blood Cell (WBC) count, and Platelets, are within their optimal physiological reference ranges. This indicates robust oxygen-carrying capacity, a healthy immune system with no signs of active infection or inflammation, and normal blood clotting function. Overall, these results reflect excellent baseline health with no hematological abnormalities detected.",
+      "recommendations": [
+        "Maintain a balanced diet rich in iron, vitamin B12, and folate (such as leafy greens, lean proteins, and legumes) to support ongoing healthy red blood cell production.",
+        "Stay adequately hydrated daily to support optimal blood volume, circulation, and overall cellular function.",
+        "Continue engaging in regular physical activity, including both cardiovascular and strength training exercises, to promote cardiovascular and circulatory health.",
+        "Schedule routine annual wellness exams and blood panels to monitor these excellent baseline levels over time.",
+        "Always consult with your primary care physician to discuss these results in the context of your overall health and wellness plan."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 14.5,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "normal",
+          "description": "Hemoglobin is the iron-containing protein in red blood cells responsible for transporting oxygen from the lungs to the rest of the body. A normal level indicates healthy oxygen-carrying capacity and rules out anemia."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 4.5,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "normal",
+          "description": "Red Blood Cells (RBCs) are responsible for carrying oxygen throughout the body. A normal count indicates healthy bone marrow production and adequate tissue oxygenation."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6500,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "White Blood Cells (WBCs) are a vital component of the immune system, defending the body against infections and foreign pathogens. A normal count suggests the absence of active acute infection, leukemia, or systemic inflammation."
+        },
+        {
+          "name": "Platelets",
+          "category": "Complete Blood Count (CBC)",
+          "value": 250000,
+          "unit": "/uL",
+          "referenceRange": "150000 - 450000",
+          "status": "normal",
+          "description": "Platelets are specialized cell fragments essential for normal blood clotting and wound healing. A normal platelet count indicates a healthy clotting mechanism without an increased risk of spontaneous bleeding or abnormal clotting."
+        }
+      ],
+      "id": "7f12d8c8-8458-4dbe-8747-d576e8115116",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:07.797Z"
+    },
+    {
+      "fileName": "qa_cbc_low.pdf",
+      "fileSize": 1534,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-01-12",
+      "patientName": "Aarav QA TestUser",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Jessica Miller, MD",
+      "labName": "LABORATORY HEALTH TESTING INC.",
+      "summary": "Hematology panel indicates mild anemia with lower-than-normal hemoglobin and red blood cell counts.",
+      "recommendations": [
+        "Consult with your primary care provider regarding iron supplementation or dietary adjustments.",
+        "Incorporate more iron-rich foods such as lean red meat, spinach, lentils, and fortified cereals.",
+        "Pair iron consumption with Vitamin C to enhance gastrointestinal absorption."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 10.2,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "low",
+          "description": "Hemoglobin is below the physiological reference range, suggesting potential anemia."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 3.4,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "low",
+          "description": "Red blood cell count is low, correlating with the decreased hemoglobin level."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6100,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "White blood cells are within the normal reference range."
+        }
+      ],
+      "id": "5849fc17-07ab-47d1-a0c5-e126c6e22c59",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:07.926Z"
+    },
+    {
+      "fileName": "qa_glucose_high.pdf",
+      "fileSize": 1410,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-02-15",
+      "patientName": "Aarav QA TestUser",
+      "age": "45",
+      "gender": "Male",
+      "doctorName": "Dr. Robert Chen, MD",
+      "labName": "PACIFIC DIABETES CLINICAL CENTER",
+      "summary": "Metabolic evaluation suggests hyperglycemia and elevated glycated hemoglobin, warranting glycemic review.",
+      "recommendations": [
+        "Discuss a personalized glycemic management plan with your physician.",
+        "Limit intake of refined sugars, simple carbohydrates, and sweetened beverages.",
+        "Incorporate daily moderate-intensity cardiovascular exercise to improve insulin sensitivity."
+      ],
+      "biomarkers": [
+        {
+          "name": "Fasting Glucose",
+          "category": "Metabolic Panel",
+          "value": 126,
+          "unit": "mg/dL",
+          "referenceRange": "70 - 99",
+          "status": "high",
+          "description": "Elevated fasting blood glucose levels indicate hyperglycemia and metabolic insulin resistance."
+        },
+        {
+          "name": "HbA1c",
+          "category": "Metabolic Panel",
+          "value": 6.7,
+          "unit": "%",
+          "referenceRange": "4.0 - 5.6",
+          "status": "high",
+          "description": "Glycated hemoglobin reflects average blood glucose over 3 months. 6.7% is in the diabetic range."
+        }
+      ],
+      "id": "13655bef-d9b4-45e1-bf81-ce1310241f09",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:08.069Z"
+    },
+    {
+      "fileName": "qa_thyroid.pdf",
+      "fileSize": 1395,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-03-20",
+      "patientName": "Aarav QA TestUser",
+      "age": "29",
+      "gender": "Female",
+      "doctorName": "Dr. Sarah Collins, MD",
+      "labName": "METROPOLITAN ENDOCRINE CARE",
+      "summary": "Thyroid profile demonstrates subclinical hypothyroidism characterized by elevated thyroid-stimulating hormone (TSH).",
+      "recommendations": [
+        "Review thyroid function parameters with an endocrinologist.",
+        "Monitor for clinical symptoms of hypothyroidism such as fatigue, weight gain, or cold intolerance.",
+        "Maintain optimal dietary selenium and iodine levels as advised by your healthcare team."
+      ],
+      "biomarkers": [
+        {
+          "name": "Thyroid Stimulating Hormone (TSH)",
+          "category": "Thyroid Panel",
+          "value": 5.4,
+          "unit": "uIU/mL",
+          "referenceRange": "0.4 - 4.0",
+          "status": "high",
+          "description": "TSH is elevated, suggesting the anterior pituitary is working harder to stimulate thyroid hormone production."
+        },
+        {
+          "name": "Free T4",
+          "category": "Thyroid Panel",
+          "value": 1.1,
+          "unit": "ng/dL",
+          "referenceRange": "0.8 - 1.8",
+          "status": "normal",
+          "description": "Circulating unbound thyroxine is normal, indicating subclinical compensation."
+        }
+      ],
+      "id": "4ba9be44-01c1-440f-8e16-a666b3184e88",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:08.209Z"
+    },
+    {
+      "fileName": "qa_lipid.pdf",
+      "fileSize": 1441,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-04-05",
+      "patientName": "Aarav QA TestUser",
+      "age": "52",
+      "gender": "Male",
+      "doctorName": "Dr. Michael Vance, MD",
+      "labName": "CARDIOVASCULAR HEALTH LABS",
+      "summary": "Lipid panel demonstrates moderate dyslipidemia, elevated LDL cholesterol, and borderline low HDL.",
+      "recommendations": [
+        "Implement a heart-healthy diet low in saturated and trans fats.",
+        "Incorporate sources of soluble fiber (like oats) and healthy fats (avocados, nuts).",
+        "Engage in aerobic physical activity at least 150 minutes per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Total Cholesterol",
+          "category": "Lipid Panel",
+          "value": 245,
+          "unit": "mg/dL",
+          "referenceRange": "< 200",
+          "status": "high",
+          "description": "Total circulating cholesterol is elevated, increasing long-term cardiovascular risk factors."
+        },
+        {
+          "name": "LDL Cholesterol",
+          "category": "Lipid Panel",
+          "value": 160,
+          "unit": "mg/dL",
+          "referenceRange": "< 100",
+          "status": "high",
+          "description": "Low-density lipoprotein ('bad') cholesterol is elevated; ideal values are under 100 mg/dL."
+        },
+        {
+          "name": "HDL Cholesterol",
+          "category": "Lipid Panel",
+          "value": 35,
+          "unit": "mg/dL",
+          "referenceRange": "> 40",
+          "status": "low",
+          "description": "High-density lipoprotein ('good') cholesterol is low, which reduces protective cardiovascular buffering."
+        },
+        {
+          "name": "Triglycerides",
+          "category": "Lipid Panel",
+          "value": 185,
+          "unit": "mg/dL",
+          "referenceRange": "< 150",
+          "status": "high",
+          "description": "Triglycerides are elevated; high levels can be driven by high intake of simple carbohydrates or alcohol."
+        }
+      ],
+      "id": "eec123e2-255e-4bbf-9fa8-8f5aa57cef6e",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:08.325Z"
+    },
+    {
+      "fileName": "qa_liver.pdf",
+      "fileSize": 1404,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-05-18",
+      "patientName": "Aarav QA TestUser",
+      "age": "41",
+      "gender": "Female",
+      "doctorName": "Dr. Alan Mercer, MD",
+      "labName": "HEPATOLOGY ASSOCIATES INC.",
+      "summary": "Hepatic enzyme evaluation shows elevated transaminases (ALT/AST), warranting clinical liver function follow-up.",
+      "recommendations": [
+        "Avoid hepatotoxic substances, including alcohol and unprescribed supplements.",
+        "Review current medications and active prescription list with your gastroenterologist.",
+        "Optimize metabolic health and exercise parameters to reduce risk of hepatic steatosis."
+      ],
+      "biomarkers": [
+        {
+          "name": "ALT (Alanine Aminotransferase)",
+          "category": "Liver Function",
+          "value": 65,
+          "unit": "U/L",
+          "referenceRange": "7 - 56",
+          "status": "high",
+          "description": "ALT is a liver enzyme. Elevated levels indicate mild hepatocyte irritation or leakage."
+        },
+        {
+          "name": "AST (Aspartate Aminotransferase)",
+          "category": "Liver Function",
+          "value": 55,
+          "unit": "U/L",
+          "referenceRange": "10 - 40",
+          "status": "high",
+          "description": "AST is present in liver and muscle. Elevated AST mirrors the ALT finding, indicating potential liver stress."
+        },
+        {
+          "name": "Alkaline Phosphatase (ALP)",
+          "category": "Liver Function",
+          "value": 110,
+          "unit": "U/L",
+          "referenceRange": "44 - 147",
+          "status": "normal",
+          "description": "ALP is involved in bone and bile duct function. Your value is within physiological limits."
+        }
+      ],
+      "id": "31cc9d9f-9706-4fef-ab77-0b5398fa7c96",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:08.460Z"
+    },
+    {
+      "fileName": "qa_kidney.pdf",
+      "fileSize": 1420,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-06-22",
+      "patientName": "Aarav QA TestUser",
+      "age": "61",
+      "gender": "Male",
+      "doctorName": "Dr. Liam Albright, MD",
+      "labName": "NEPHROLOGY CLINICAL EXPERTS",
+      "summary": "Renal function profile demonstrates mild impairment characterized by elevated serum creatinine and lowered eGFR.",
+      "recommendations": [
+        "Avoid nephrotoxic agents, particularly over-the-counter NSAIDs like ibuprofen.",
+        "Maintain standard and sufficient hydration while monitoring daily blood pressure.",
+        "Schedule a renal ultrasound and follow-up appointment with your nephrologist."
+      ],
+      "biomarkers": [
+        {
+          "name": "Creatinine",
+          "category": "Renal Function",
+          "value": 1.6,
+          "unit": "mg/dL",
+          "referenceRange": "0.6 - 1.2",
+          "status": "high",
+          "description": "Serum creatinine is elevated, suggesting a reduced glomerular filtration capacity of the kidneys."
+        },
+        {
+          "name": "BUN (Blood Urea Nitrogen)",
+          "category": "Renal Function",
+          "value": 28,
+          "unit": "mg/dL",
+          "referenceRange": "7 - 20",
+          "status": "high",
+          "description": "BUN is elevated, indicating increased urea levels, which can align with dehydration or renal clearance delays."
+        },
+        {
+          "name": "eGFR (Estimated Glomerular Filtration Rate)",
+          "category": "Renal Function",
+          "value": 52,
+          "unit": "mL/min/1.73m2",
+          "referenceRange": "> 90",
+          "status": "low",
+          "description": "Estimated GFR of 52 mL/min indicates Stage 3 chronic kidney disease parameters."
+        }
+      ],
+      "id": "793f13c1-466f-47a5-ac25-176006595239",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:08.587Z"
+    },
+    {
+      "fileName": "qa_vitamins.pdf",
+      "fileSize": 1252,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-07-01",
+      "patientName": "Aarav QA TestUser",
+      "age": "36",
+      "gender": "Female",
+      "doctorName": "Dr. Chloe Vance, MD",
+      "labName": "METROPOLITAN WELLNESS LABS",
+      "summary": "Nutritional analysis indicates co-existing Vitamin D and Vitamin B12 deficiencies.",
+      "recommendations": [
+        "Consult with your doctor on a high-dose therapeutic vitamin supplementation plan.",
+        "Increase consumption of fatty fish, egg yolks, and vitamin-fortified dairy or non-dairy milks.",
+        "Integrate rich sources of Vitamin B12 like lean poultry, shellfish, or nutritional yeast."
+      ],
+      "biomarkers": [
+        {
+          "name": "Vitamin D, 25-Hydroxy",
+          "category": "Vitamins & Minerals",
+          "value": 18,
+          "unit": "ng/mL",
+          "referenceRange": "30 - 100",
+          "status": "low",
+          "description": "Circulating Vitamin D is low, which can impact skeletal bone density and immune regulation."
+        },
+        {
+          "name": "Vitamin B12",
+          "category": "Vitamins & Minerals",
+          "value": 180,
+          "unit": "pg/mL",
+          "referenceRange": "200 - 900",
+          "status": "low",
+          "description": "Serum Vitamin B12 is deficient, posing long-term risks of hematological anemia or neuropathies."
+        }
+      ],
+      "id": "2ceb87fd-473a-4fe8-9dbb-68c5302bf005",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:08.708Z"
+    },
+    {
+      "fileName": "qa_multi_panel.pdf",
+      "fileSize": 1917,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-07-10",
+      "patientName": "Aarav QA TestUser",
+      "age": "44",
+      "gender": "Male",
+      "doctorName": "Dr. Arthur Conan, MD",
+      "labName": "CONSOLIDATED LAB NETWORKS",
+      "summary": "Comprehensive multi-panel test demonstrates borderline issues in lipid and metabolic markers, with normal blood counts.",
+      "recommendations": [
+        "Review these health metrics with your primary healthcare provider.",
+        "Maintain a balanced diet rich in whole foods, lean proteins, complex carbohydrates, and leafy greens.",
+        "Engage in regular physical activity, aiming for 150 minutes of moderate cardiovascular exercise per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 14.5,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "normal",
+          "description": "Optimal oxygen-carrying protein capacity."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 4.5,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "normal",
+          "description": "Healthy red blood cell counts."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6500,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "Healthy white blood cell immunity."
+        },
+        {
+          "name": "Glucose",
+          "category": "Metabolic Panel",
+          "value": 105,
+          "unit": "mg/dL",
+          "referenceRange": "70 - 99",
+          "status": "high",
+          "description": "Borderline fasting glucose suggests mild hyperglycemia."
+        },
+        {
+          "name": "HbA1c",
+          "category": "Metabolic Panel",
+          "value": 5.8,
+          "unit": "%",
+          "referenceRange": "4.0 - 5.6",
+          "status": "high",
+          "description": "Borderline HbA1c suggests a state of prediabetes."
+        },
+        {
+          "name": "Total Cholesterol",
+          "category": "Lipid Panel",
+          "value": 215,
+          "unit": "mg/dL",
+          "referenceRange": "< 200",
+          "status": "high",
+          "description": "Slightly elevated total cholesterol."
+        },
+        {
+          "name": "LDL Cholesterol",
+          "category": "Lipid Panel",
+          "value": 135,
+          "unit": "mg/dL",
+          "referenceRange": "< 100",
+          "status": "high",
+          "description": "Slightly elevated low-density lipoprotein cholesterol."
+        },
+        {
+          "name": "HDL Cholesterol",
+          "category": "Lipid Panel",
+          "value": 42,
+          "unit": "mg/dL",
+          "referenceRange": "> 40",
+          "status": "normal",
+          "description": "Adequate HDL cholesterol levels."
+        },
+        {
+          "name": "Creatinine",
+          "category": "Renal Function",
+          "value": 0.9,
+          "unit": "mg/dL",
+          "referenceRange": "0.6 - 1.2",
+          "status": "normal",
+          "description": "Healthy glomerular clearance."
+        },
+        {
+          "name": "Vitamin D",
+          "category": "Vitamins & Minerals",
+          "value": 22,
+          "unit": "ng/mL",
+          "referenceRange": "30 - 100",
+          "status": "low",
+          "description": "Lower than optimal serum vitamin D."
+        }
+      ],
+      "id": "86c4ec2d-2b62-4e95-8275-62c631d6c820",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:08.831Z"
+    },
+    {
+      "fileName": "qa_cbc_image.png",
+      "fileSize": 47434,
+      "mimeType": "image/png",
+      "reportDate": "2026-01-10",
+      "patientName": "Aarav QA TestUser",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Jessica Miller, MD",
+      "labName": "LABORATORY HEALTH TESTING INC.",
+      "summary": "All Complete Blood Count parameters are in the optimal physiological range.",
+      "recommendations": [
+        "Review these health metrics with your primary healthcare provider.",
+        "Maintain a balanced diet rich in whole foods, lean proteins, complex carbohydrates, and leafy greens.",
+        "Engage in regular physical activity, aiming for 150 minutes of moderate cardiovascular exercise per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 14.5,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "normal",
+          "description": "Hemoglobin is the protein in red blood cells that carries oxygen. Your level is optimal."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 4.5,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "normal",
+          "description": "Red blood cell count is within the healthy physiological reference range."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6500,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "White blood cells are crucial for defense against infections. Your level is normal."
+        },
+        {
+          "name": "Platelets",
+          "category": "Complete Blood Count (CBC)",
+          "value": 250000,
+          "unit": "cells/uL",
+          "referenceRange": "150000 - 450000",
+          "status": "normal",
+          "description": "Platelets are essential for blood clotting. Your level is in the normal range."
+        }
+      ],
+      "id": "f5ca4200-dfff-4fb7-a0f0-ac231039852b",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:08.961Z"
+    },
+    {
+      "fileName": "qa_cbc_image.jpg",
+      "fileSize": 81416,
+      "mimeType": "image/jpeg",
+      "reportDate": "2026-01-10",
+      "patientName": "Aarav QA TestUser",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Jessica Miller, MD",
+      "labName": "LABORATORY HEALTH TESTING INC.",
+      "summary": "All Complete Blood Count parameters are in the optimal physiological range.",
+      "recommendations": [
+        "Review these health metrics with your primary healthcare provider.",
+        "Maintain a balanced diet rich in whole foods, lean proteins, complex carbohydrates, and leafy greens.",
+        "Engage in regular physical activity, aiming for 150 minutes of moderate cardiovascular exercise per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 14.5,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "normal",
+          "description": "Hemoglobin is the protein in red blood cells that carries oxygen. Your level is optimal."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 4.5,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "normal",
+          "description": "Red blood cell count is within the healthy physiological reference range."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6500,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "White blood cells are crucial for defense against infections. Your level is normal."
+        },
+        {
+          "name": "Platelets",
+          "category": "Complete Blood Count (CBC)",
+          "value": 250000,
+          "unit": "cells/uL",
+          "referenceRange": "150000 - 450000",
+          "status": "normal",
+          "description": "Platelets are essential for blood clotting. Your level is in the normal range."
+        }
+      ],
+      "id": "ac6efb10-9a6a-4185-adbb-742948a43665",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:09.090Z"
+    },
+    {
+      "fileName": "qa_blurry_report.png",
+      "fileSize": 1968,
+      "mimeType": "image/png",
+      "reportDate": "2026-01-10",
+      "patientName": "Aarav QA TestUser",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Jessica Miller, MD",
+      "labName": "LABORATORY HEALTH TESTING INC.",
+      "summary": "All Complete Blood Count parameters are in the optimal physiological range.",
+      "recommendations": [
+        "Review these health metrics with your primary healthcare provider.",
+        "Maintain a balanced diet rich in whole foods, lean proteins, complex carbohydrates, and leafy greens.",
+        "Engage in regular physical activity, aiming for 150 minutes of moderate cardiovascular exercise per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 14.5,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "normal",
+          "description": "Hemoglobin is the protein in red blood cells that carries oxygen. Your level is optimal."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 4.5,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "normal",
+          "description": "Red blood cell count is within the healthy physiological reference range."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6500,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "White blood cells are crucial for defense against infections. Your level is normal."
+        },
+        {
+          "name": "Platelets",
+          "category": "Complete Blood Count (CBC)",
+          "value": 250000,
+          "unit": "cells/uL",
+          "referenceRange": "150000 - 450000",
+          "status": "normal",
+          "description": "Platelets are essential for blood clotting. Your level is in the normal range."
+        }
+      ],
+      "id": "f4118674-5710-4228-92e8-3f012014121e",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:09.218Z"
+    },
+    {
+      "fileName": "qa_rotated_report.png",
+      "fileSize": 36984,
+      "mimeType": "image/png",
+      "reportDate": "2026-01-10",
+      "patientName": "Aarav QA TestUser",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Jessica Miller, MD",
+      "labName": "LABORATORY HEALTH TESTING INC.",
+      "summary": "All Complete Blood Count parameters are in the optimal physiological range.",
+      "recommendations": [
+        "Review these health metrics with your primary healthcare provider.",
+        "Maintain a balanced diet rich in whole foods, lean proteins, complex carbohydrates, and leafy greens.",
+        "Engage in regular physical activity, aiming for 150 minutes of moderate cardiovascular exercise per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 14.5,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "normal",
+          "description": "Hemoglobin is the protein in red blood cells that carries oxygen. Your level is optimal."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 4.5,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "normal",
+          "description": "Red blood cell count is within the healthy physiological reference range."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6500,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "White blood cells are crucial for defense against infections. Your level is normal."
+        },
+        {
+          "name": "Platelets",
+          "category": "Complete Blood Count (CBC)",
+          "value": 250000,
+          "unit": "cells/uL",
+          "referenceRange": "150000 - 450000",
+          "status": "normal",
+          "description": "Platelets are essential for blood clotting. Your level is in the normal range."
+        }
+      ],
+      "id": "b73e2119-03e4-484a-8b90-162190a200de",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:09.325Z"
+    },
+    {
+      "fileName": "qa_low_contrast_report.png",
+      "fileSize": 24355,
+      "mimeType": "image/png",
+      "reportDate": "2026-01-10",
+      "patientName": "Aarav QA TestUser",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Jessica Miller, MD",
+      "labName": "LABORATORY HEALTH TESTING INC.",
+      "summary": "All Complete Blood Count parameters are in the optimal physiological range.",
+      "recommendations": [
+        "Review these health metrics with your primary healthcare provider.",
+        "Maintain a balanced diet rich in whole foods, lean proteins, complex carbohydrates, and leafy greens.",
+        "Engage in regular physical activity, aiming for 150 minutes of moderate cardiovascular exercise per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 14.5,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "normal",
+          "description": "Hemoglobin is the protein in red blood cells that carries oxygen. Your level is optimal."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 4.5,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "normal",
+          "description": "Red blood cell count is within the healthy physiological reference range."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6500,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "White blood cells are crucial for defense against infections. Your level is normal."
+        },
+        {
+          "name": "Platelets",
+          "category": "Complete Blood Count (CBC)",
+          "value": 250000,
+          "unit": "cells/uL",
+          "referenceRange": "150000 - 450000",
+          "status": "normal",
+          "description": "Platelets are essential for blood clotting. Your level is in the normal range."
+        }
+      ],
+      "id": "c26e07f1-ba6b-4527-aff1-91973c311a2a",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:09.456Z"
+    },
+    {
+      "fileName": "qa_scanned_report.pdf",
+      "fileSize": 1100,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-01-10",
+      "patientName": "Aarav QA TestUser",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Jessica Miller, MD",
+      "labName": "LABORATORY HEALTH TESTING INC.",
+      "summary": "All Complete Blood Count parameters are in the optimal physiological range.",
+      "recommendations": [
+        "Review these health metrics with your primary healthcare provider.",
+        "Maintain a balanced diet rich in whole foods, lean proteins, complex carbohydrates, and leafy greens.",
+        "Engage in regular physical activity, aiming for 150 minutes of moderate cardiovascular exercise per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "category": "Complete Blood Count (CBC)",
+          "value": 14.5,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "status": "normal",
+          "description": "Hemoglobin is the protein in red blood cells that carries oxygen. Your level is optimal."
+        },
+        {
+          "name": "RBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 4.5,
+          "unit": "M/uL",
+          "referenceRange": "4.0 - 5.2",
+          "status": "normal",
+          "description": "Red blood cell count is within the healthy physiological reference range."
+        },
+        {
+          "name": "WBC Count",
+          "category": "Complete Blood Count (CBC)",
+          "value": 6500,
+          "unit": "cells/uL",
+          "referenceRange": "4000 - 11000",
+          "status": "normal",
+          "description": "White blood cells are crucial for defense against infections. Your level is normal."
+        },
+        {
+          "name": "Platelets",
+          "category": "Complete Blood Count (CBC)",
+          "value": 250000,
+          "unit": "cells/uL",
+          "referenceRange": "150000 - 450000",
+          "status": "normal",
+          "description": "Platelets are essential for blood clotting. Your level is in the normal range."
+        }
+      ],
+      "id": "29fc5eac-0963-4cad-bdc9-25bfea6e6828",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:09.561Z"
+    },
+    {
+      "fileName": "qa_long_test_names.pdf",
+      "fileSize": 1498,
+      "mimeType": "application/pdf",
+      "reportDate": "2026-07-05",
+      "patientName": "Aarav QA TestUser",
+      "age": "39",
+      "gender": "Male",
+      "doctorName": "Dr. Helen Rostova, MD",
+      "labName": "SPECIALTY IMMUNOASSAY CLINIC",
+      "summary": "Specialty panel indicates elevated ApoB/ApoA1 ratio and positive autoimmune antibodies.",
+      "recommendations": [
+        "Review these health metrics with your primary healthcare provider.",
+        "Maintain a balanced diet rich in whole foods, lean proteins, complex carbohydrates, and leafy greens.",
+        "Engage in regular physical activity, aiming for 150 minutes of moderate cardiovascular exercise per week."
+      ],
+      "biomarkers": [
+        {
+          "name": "Apolipoprotein B-100 / Apolipoprotein A-1 Ratio",
+          "category": "Specialty Lipid Panel",
+          "value": 1.15,
+          "unit": "",
+          "referenceRange": "< 0.8",
+          "status": "high",
+          "description": "A high ApoB/ApoA1 ratio correlates significantly with increased atherogenic cardiovascular disease risks."
+        },
+        {
+          "name": "25-Hydroxyvitamin D3 [25(OH)D] plus 25-Hydroxyvitamin D2",
+          "category": "Vitamins & Minerals",
+          "value": 24,
+          "unit": "ng/mL",
+          "referenceRange": "30 - 100",
+          "status": "low",
+          "description": "Total Vitamin D is below optimal thresholds, indicating mild deficiency."
+        },
+        {
+          "name": "Thyroid Peroxidase Antibody [TPO Ab]",
+          "category": "Immunology",
+          "value": 45,
+          "unit": "IU/mL",
+          "referenceRange": "< 9",
+          "status": "high",
+          "description": "TPO antibodies are elevated, pointing toward underlying autoimmune thyroiditis."
+        }
+      ],
+      "id": "30dcf1a6-cb93-4f51-8012-3086a09d3e18",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "uploadedAt": "2026-07-17T01:55:09.741Z"
     }
   ],
   "sessions": [
@@ -4626,6 +5528,11 @@
       "id": "eebfd88e8ac510e55cc8cfcb803f645c33f1dd7058a54b92a22a780b190270a2",
       "userId": "05849301-6872-45a7-a5d1-b7782a5b062d",
       "expiresAt": "2026-07-23T08:46:20.302Z"
+    },
+    {
+      "id": "48d03522df54118d087a9c81ec24eadf66109f0b902915ea4d2d23515739f0e4",
+      "userId": "470ac516-7c8f-4df2-aa7b-03ee8e8ef66e",
+      "expiresAt": "2026-07-24T01:54:51.411Z"
     }
   ]
 }
